@@ -1,0 +1,5 @@
+EventLoggingMain.class
+Service\EventService.class
+Domain\Logs.class
+Service\EventLogRepository.class
+Domain\EventLog.class
