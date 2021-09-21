@@ -45,7 +45,7 @@ public class EventLoggingMain {
             });
             for(EventLog l : eventLogs)
             {
-                System.out.println(l.getAlert());
+                System.out.println(l.toString());
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
