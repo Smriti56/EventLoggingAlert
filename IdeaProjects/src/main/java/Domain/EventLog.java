@@ -54,4 +54,15 @@ public class EventLog {
     public void setAlert(Boolean alert) {
         this.alert = alert;
     }
+    
+    @Override
+    public String toString() {
+        return "EventLog{" +
+                "eventId='" + eventId + '\'' +
+                ", eventDuration=" + eventDuration +
+                ", type='" + type + '\'' +
+                ", host='" + host + '\'' +
+                ", alert=" + alert +
+                '}';
+    }
 }
